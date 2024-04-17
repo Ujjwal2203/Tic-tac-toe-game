@@ -53,8 +53,7 @@ const enablebox = ()=>{
 }
 const showwinner =(winner) =>{
   if(count<9){
-    msg.innerText = `Congratulation winner is ${winner}`
-
+    msg.innerText = `Congratulation winner is ${winner}`;
   }
   else{
     msg.innerText = `It was a Draw Try again`;
